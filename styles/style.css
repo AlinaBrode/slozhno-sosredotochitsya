@@ -85,7 +85,7 @@
   content: "";
   width: 20px;
   height: 20px;
-  border-inline-start: 1px solid var(--accent-content-txt); /* Верхняя граница */
+  border-inline-start: 1px solid var(--accent-content-txt);
   border-block-end: 1px solid var(--accent-content-txt);
   inset-block-end: 0; 
 }
@@ -94,6 +94,8 @@
 .header__theme-menu {
   display: grid;
   justify-content: end;
+  padding-block-start: 8px;
+ 
 }
 
 .accented-text-bold {
@@ -106,14 +108,24 @@
   border: none;
   color: var(--accent-content-txt);
   background-color: transparent;
+  padding: 2px 13px 2px;
+  line-height: 100%;
 }
 
 .header__theme-menu-list {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
+.header__theme-menu-item {
+  padding:0px, 13px, 0px, 13px;
+}
 .header__theme-menu-button_active {
   outline: 1px solid var(--accent-content-txt);
+  pointer-events: none;
+ 
 }
 
 .accented-block {
@@ -131,7 +143,8 @@
   color: var(--accent-content-txt);
   font-size: 18px;
   font-weight: 700;
-  line-height: 23.4 px;
+  line-height: 23.4px;
+  margin-bottom: 15px; /* Отступ снизу для заголовков второго уровня */
 }
 
 .no-items-list {
@@ -157,9 +170,6 @@
 }
 main {
 display: grid;
-}
-.second-level {
-  margin-bottom: 15px; /* Отступ снизу для заголовков второго уровня */
 }
 
 .accented-block {
