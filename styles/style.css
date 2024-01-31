@@ -41,7 +41,9 @@
   min-height: calc(668px - 20px);
   block-size: calc(100vh - 20px);
 }
-
+.header__heading {
+  margin-block-start:30px;
+}
 .decorated-zone {
   position: relative;
 }
@@ -94,7 +96,7 @@
 .header__theme-menu {
   display: grid;
   justify-content: end;
-  padding-block-start: 8px;
+  padding-block-start: 18px;
  
 }
 
@@ -119,9 +121,6 @@
   gap: 10px;
 }
 
-.header__theme-menu-item {
-  padding:0px, 13px, 0px, 13px;
-}
 .header__theme-menu-button_active {
   outline: 1px solid var(--accent-content-txt);
   pointer-events: none;
