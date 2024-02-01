@@ -23,7 +23,7 @@
     --header-text-shadow: 4px 4px 0px #ff8dcb;
   }
 
-  .theme_light .footer__text {
+  .theme_light .footer__title {
     --footer-text-shadow: 2px 2px 0px #ff8dcb;
   }
 }
@@ -63,7 +63,22 @@
     --footer-text-shadow: 2px 2px 0px #ff0070;
   }
 }
+.accented-link {
+  text-decoration: none;
+  text-shadow: 2px 2px 0 var(  --accent-bg);
 }
+.accented-link:hover {
+  border-block-end: 1px solid var( --accent-bg);
+}
+
+.accented-link:focus {
+  outline: none;
+}
+
+.accented-link:focus-visible {
+  outline: 1px solid var( --accent-bg);
+}
+
 
 /*
 .page.theme_light .decor-rec-item {

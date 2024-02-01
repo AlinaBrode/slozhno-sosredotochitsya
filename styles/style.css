@@ -192,6 +192,22 @@
   line-height: 23.4px;
 }
 
+.accented-link {
+  text-decoration: none;
+  text-shadow: 2px 2px 0 var( --accent-content-txt);
+}
+.accented-link:hover {
+  border-block-end: 1px solid var(--accent-content-txt);
+}
+
+.accented-link:focus {
+  outline: none;
+}
+
+.accented-link:focus-visible {
+  outline: 1px solid var(--accent-content-txt);
+}
+
 .what__low {
   line-height: 23.4px;
   margin-block-end:50px;
@@ -220,7 +236,16 @@ main {
 .accented-text-bold {
   margin-block-end: 10px;
   }
- 
+ .footer {
+  display: grid;
+  place-items: center;
+  block-size: 100vh;
+  min-block-size: 668px;
+  margin-block-start: 20px;
+ }
+.footer__text {
+  margin-block-start: 8px;
+}
 /*
 .why__difficult-heading {
   margin-block-end: 10px;
