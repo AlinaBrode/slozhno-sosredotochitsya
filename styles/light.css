@@ -18,7 +18,15 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+@media (width <= 1024px) {
+  .theme_light .header__heading {
+    --header-text-shadow: 4px 4px 0px #ff8dcb;
+  }
 
+  .theme_light .footer__text {
+    --footer-text-shadow: 2px 2px 0px #ff8dcb;
+  }
+}
 @media (prefers-color-scheme: light) {
   :root {
     --accent-bg: #ffc2e6;
@@ -36,6 +44,25 @@
 
 .accented-shadow-text {
   text-shadow: 4px 4px 0 var(--accent-bg);
+}
+
+@media (width < 1024px) {
+  .header__heading {
+    --header-text-shadow: 4px 4px 0px #ff8dcb;
+  }
+
+  .footer__text {
+    --footer-text-shadow: 2px 2px 0px #ff8dcb;
+  }
+
+  .theme_dark .header__heading {
+    --header-text-shadow: 4px 4px 0px #ff0070;
+  }
+
+  .theme_dark .footer__text {
+    --footer-text-shadow: 2px 2px 0px #ff0070;
+  }
+}
 }
 
 /*
