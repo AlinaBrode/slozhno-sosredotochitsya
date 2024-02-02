@@ -224,27 +224,40 @@
 .accented-block {
   margin-block-end:50px;
 }
+
 main {
   display: grid;
-  margin: 30px 0px 40px 0px;
+  margin: 30px 0px 0px 0px;
 }
 
 .accented-block {
   margin-block-start: 20px;
   margin-block-end: 10px; /* Отступ снизу для выделенных заголовков */
 }
+
 .accented-text-bold {
   margin-block-end: 10px;
-  }
+}
+  
+
  .footer {
-  display: grid;
-  place-items: center;
+  display: flex;
   block-size: 100vh;
   min-block-size: 668px;
-  margin-block-start: 20px;
+  margin-block-start: 35px;
  }
+
 .footer__text {
-  margin-block-start: 8px;
+  display: grid;
+  align-items: center;
+
+}
+
+footer.footer.decorated-zone::before {
+  margin-top: 10px;
+}
+footer.footer.decorated-zone::after {
+  margin-bottom: -10px;
 }
 /*
 .why__difficult-heading {
@@ -278,10 +291,17 @@ main {
  
 }
 
-.footer {
-  block-size: 100vh;
-  min-block-size: 668px;
-}
+
 .what__low-list-item {
   min-height: 100%;
 }
+
+.pictures {
+  margin: 25px 0px 0px 0px;
+}
+
+
+.pic {
+  margin-top: 5px;
+}
+
