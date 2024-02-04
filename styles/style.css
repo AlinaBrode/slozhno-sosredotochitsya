@@ -497,6 +497,6 @@ footer.footer.decorated-zone::after {
   }
 
   .footer {
-    height: calc(100vh - 20px);
+    height: 100vh;
   }
 }
