@@ -490,8 +490,13 @@ footer.footer.decorated-zone::after {
   .what__low-heading {
     max-width: 315px;
   }
+
   .how__conc {
     margin-block-start: 40px;
     gap: 10px;
+  }
+
+  .footer {
+    height: calc(100vh - 20px);
   }
 }
