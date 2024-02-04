@@ -400,7 +400,7 @@ footer.footer.decorated-zone::after {
 
  .tape {
   grid-column: 1;
-  grid-row: 2 / span 3;
+  grid-row: 2 / span 2;
  }
 
  .books {
@@ -409,12 +409,14 @@ footer.footer.decorated-zone::after {
  }
 
  .street {
-  grid-column: 2 /span 3;
+  grid-column: 2 /span 2;
   grid-row:3;
  }
 
  .pictures__img-item {
    width: 100%;
+   object-fit: cover;
+   block-size: 100%;
  }
 
  .pic {
