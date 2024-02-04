@@ -12,11 +12,7 @@
   background-attachment: fixed;
 }
 
-@media (min-width: 1024px) {
-  .accented-shadow-text {
-    font-size: var(--accent-fs-desktop);
-  }
-}
+
 
 .accented-shadow-text {
   color: var(--accent-heading-footer-clr);
@@ -68,14 +64,6 @@
 
 .header__text {
   margin-block-start: 57px;
-}
-
-
-@media (width >= 1024px) {
-  .header__text {
-    margin-block-end: 20px;
-    inline-size: 48vw;
-  }
 }
 
 .decorated-zone::before {
@@ -445,3 +433,74 @@ footer.footer.decorated-zone::before {
     }
   }
 
+  @media (min-width: 1024px) {
+    .accented-shadow-text {
+      font-size: var(--accent-fs-desktop);
+    }
+
+    .header__text {
+      margin-block-end: 20px;
+      inline-size: 48vw;
+      max-width: 491px;
+      margin-block-start: 125px;
+    }
+
+    .header__theme-menu {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      margin-block-start: 0px;
+      gap: 10px;
+    }
+
+    .header__theme-menu-list {
+     flex-direction: row;
+    }
+
+    .header__heading {
+      display: flex;
+     justify-self: center;
+     margin-block-start: 300px;
+    }
+    .decorated-zone::after {
+      margin-bottom: 20px;
+  }
+  .why__difficult {
+    gap: 13px;
+  }
+  .why__difficult-heading {
+   margin-block-start: 20px;
+   max-width: 315px;
+  }
+  .why__difficult-list-item {
+    max-width: 100%;
+  }
+  .why__list-text-section-text {
+    overflow-wrap: normal;
+    word-break: normal;
+    margin: 0;
+    padding: 0; 
+    text-align: justify;
+  }
+   
+.what__low-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; /* или center, в зависимости от предпочтений */
+    align-items: flex-start;
+    gap: 20px; /* Расстояние между элементами */
+}
+    .what__low-list-item {
+      flex-basis: calc(33.333% - 20px); /* Ширина каждого элемента (минус gap) */
+      max-width: calc(33.333% - 20px); /* Аналогично flex-basis */
+    }
+
+      .what__low-heading {
+      max-width: 315px;
+      }
+    .how__conc {
+      margin-block-start: 40px;
+      gap: 10px;
+    }
+}
