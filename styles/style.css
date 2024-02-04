@@ -170,6 +170,7 @@
 .pictures {
   width: 100%;
   height: auto;
+  margin: 30px 0px 0px 0px;
 }
 
 .why__difficult {
@@ -253,10 +254,6 @@ footer.footer.decorated-zone::after {
   min-height: 100%;
 }
 
-.pictures {
-  margin: 30px 0px 0px 0px;
-}
-
 .pic {
   margin-top: 5px;
 }
@@ -311,6 +308,8 @@ footer.footer.decorated-zone::after {
   .why__difficult-heading {
     max-width: 236px;
     word-wrap: break-word;
+    grid-column: 1;
+    margin-top: 20px;
   }
 
   .why__difficult-list-item {
@@ -321,11 +320,6 @@ footer.footer.decorated-zone::after {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
-  }
-
-  .why__difficult-heading {
-    grid-column: 1;
-    margin-top: 20px;
   }
 
   .why__difficult-list {
