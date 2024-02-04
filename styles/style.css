@@ -270,7 +270,11 @@ footer.footer.decorated-zone::after {
   .how__conc {
     line-height: 23.4px;
     margin-block-start: 60px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
   }
+
   .how__conc-list-title {
     margin-top: 19px;
   }
@@ -333,12 +337,6 @@ footer.footer.decorated-zone::after {
   .what__low-heading {
     margin-block-start: 20px;
     max-width: 236px;
-  }
-
-  .how__conc {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 20px;
   }
 
   .how__conc-heading {
