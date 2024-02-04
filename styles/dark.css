@@ -31,7 +31,3 @@
   --cover-image: url(../images/cover-image-dark.png);
   --decor-rec-item: #ff0070;
 }
-
-@media (width >= 768px) {
-  /*.header__theme-menu;*/
-}
