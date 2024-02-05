@@ -13,7 +13,7 @@
   --accent-txt-bold: #000028;
   --accent-heading-footer-clr: #db00ff;
   --decor-rec-item: #ff0070;
-    background-color: #000028;;
+ background-image: url(../images/cover-image-dark.png);;
 }
 
 :root {
@@ -28,16 +28,6 @@
   --cover-image: url(../images/cover-image-dark.png);
   --decor-rec-item: #ff0070;
 }
-@media (prefers-color-scheme: dark) {
-  .page.theme_dark {
-    --cover-image: url(../images/cover-image-dark.png);
-    --accent-bg: #000028;
-    --accent-content-txt: #ff0070;
-    --accent-bg: #ff0070;
-    --accent-txt: #f1b2ce;
-    --accent-txt-bold: #000028;
-    --accent-heading-footer-clr: #db00ff;
-    --decor-rec-item: #ff0070;
-      background-color: #000028;;
-  }
+.page {
+  background-image: url(../images/cover-image-dark.png);
 }
