@@ -261,7 +261,11 @@ footer.footer.decorated-zone::after {
 
 @media (min-width: 768px) {
   main {
-    margin: 20px 0 0 0;
+    margin: 20px 20px 0 20px;
+  }
+
+  .header {
+    margin: 20px;
   }
 
   .how__conc {
@@ -394,7 +398,7 @@ footer.footer.decorated-zone::after {
     align-items: center;
     block-size: 100vh;
     min-block-size: 668px;
-    margin-block-start: 50px;
+    margin: 50px 20px 0px 20px;
     height: 100vh;
   }
 
@@ -446,7 +450,7 @@ footer.footer.decorated-zone::after {
   }
 
   .decorated-zone::after {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   .why__difficult {
