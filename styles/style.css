@@ -10,7 +10,9 @@
   background-size: cover;
   background-position: top center;
   background-attachment: fixed;
+  background: center / cover fixed url(../images/cover-image-dark.png);
 }
+
 
 .accented-shadow-text {
   color: var(--accent-heading-footer-clr);
