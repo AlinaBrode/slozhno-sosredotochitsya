@@ -212,7 +212,7 @@
 
 main {
   display: grid;
-  margin: 30px 0px 0px 0px;
+  margin: 30px 10px 0px 10px;
 }
 
 .how_conc-list-title-sky-clouds {
@@ -229,7 +229,7 @@ main {
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  margin-block-start: 35px;
+  margin: 35px 10px 0px 10px;
 }
 
 .footer__text {
