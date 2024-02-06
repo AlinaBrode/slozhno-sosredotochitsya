@@ -39,7 +39,7 @@
     --accent-fs-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     --accent-fs-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     --cover-image: url(../images/cover-image-light.png);
-    --background-color: #FFF1F7;
+    --background-color: #fff1f7;
   }
 }
 
@@ -66,10 +66,10 @@
 }
 .accented-link {
   text-decoration: none;
-  text-shadow: 2px 2px 0 var(  --accent-bg);
+  text-shadow: 2px 2px 0 var(--accent-bg);
 }
 .accented-link:hover {
-  border-block-end: 1px solid var( --accent-bg);
+  border-block-end: 1px solid var(--accent-bg);
 }
 
 .accented-link:focus {
@@ -77,9 +77,8 @@
 }
 
 .accented-link:focus-visible {
-  outline: 1px solid var( --accent-bg);
+  outline: 1px solid var(--accent-bg);
 }
-
 
 /*
 .page.theme_light .decor-rec-item {
