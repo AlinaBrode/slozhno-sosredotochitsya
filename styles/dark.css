@@ -12,7 +12,7 @@
   --accent-txt-bold: #000028;
   --accent-heading-footer-clr: #DB00FF;
   --decor-rec-item: #FF0070;
-   background-color: #000028;
+  --background-color: #000028;
 }
 
 :root {
@@ -25,4 +25,5 @@
   --accent-fs-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --cover-image: url(../images/cover-image-dark.png);
   --decor-rec-item: #FF0070;
+  --background-color: #000028;
 }

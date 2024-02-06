@@ -9,6 +9,7 @@
   background-size: cover;
   background-position: top center;
   background-attachment: fixed;
+  background-color: var(--background-color);
 }
 
 
