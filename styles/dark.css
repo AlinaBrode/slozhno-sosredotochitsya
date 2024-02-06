@@ -6,7 +6,6 @@
 
 .page.theme_dark {
   --cover-image: url(../images/cover-image-dark.png);
-  --accent-bg: #000028;
   --accent-content-txt: #FF0070;
   --accent-bg: #ff0070;
   --accent-txt: #F1B2CE;
@@ -17,8 +16,8 @@
 }
 
 :root {
-  --accent-bg: #000028;
   --accent-content-txt:#FF0070;
+  --accent-bg: #FF0070;
   --accent-txt: #F1B2CE;
   --accent-txt-bold: #000028;
   --accent-heading-footer-clr: #DB00FF;
