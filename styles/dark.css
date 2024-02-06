@@ -9,22 +9,21 @@
   --accent-bg: #000028;
   --accent-content-txt: #ff0070;
   --accent-bg: #ff0070;
-  --accent-txt: #f1b2ce;
+  --accent-txt: #F1B2CE;
   --accent-txt-bold: #000028;
-  --accent-heading-footer-clr: #db00ff;
-  --decor-rec-item: #ff0070;
-
+  --accent-heading-footer-clr: #DB00FF;
+  --decor-rec-item: #FF0070;
+}
 
 :root {
   --accent-bg: #000028;
-  --accent-content-txt: #ff0070;
+  --accent-content-txt:#FF0070;
   --accent-bg: #ff0070;
-  --accent-txt: #f1b2ce;
+  --accent-txt: #F1B2CE;
   --accent-txt-bold: #000028;
-  --accent-heading-footer-clr: #db00ff;
+  --accent-heading-footer-clr: #DB00FF;
   --accent-fs-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --accent-fs-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --cover-image: url(../images/cover-image-dark.png);
-  --decor-rec-item: #ff0070;
-}
+  --decor-rec-item: #FF0070;
 }
