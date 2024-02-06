@@ -486,7 +486,6 @@ footer.footer.decorated-zone::after {
   .what__low-list-item {
     flex-basis: calc(33.333% - 20px);
     max-width: calc(33.333% - 20px); 
-    
   }
 
   .what__low-heading {
