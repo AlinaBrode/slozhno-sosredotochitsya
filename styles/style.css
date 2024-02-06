@@ -478,14 +478,14 @@ footer.footer.decorated-zone::after {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around; /* или center, в зависимости от предпочтений */
+    justify-content: space-around;
     align-items: flex-start;
-    gap: 20px; /* Расстояние между элементами */
+    gap: 20px;
   }
 
   .what__low-list-item {
-    flex-basis: calc(33.333% - 20px); /* Ширина каждого элемента (минус gap) */
-    max-width: calc(33.333% - 20px); /* Аналогично flex-basis */
+    flex-basis: calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px); 
   }
 
   .what__low-heading {
