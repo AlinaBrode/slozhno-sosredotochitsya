@@ -13,6 +13,7 @@
   --accent-txt-bold: #000028;
   --accent-heading-footer-clr: #ffc2e6;
   --decor-rec-item: transparent;
+  background-image: url(../images/cover-image-light.png);
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя

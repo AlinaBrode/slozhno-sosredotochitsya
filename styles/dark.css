@@ -13,6 +13,7 @@
   --accent-txt-bold: #000028;
   --accent-heading-footer-clr: #DB00FF;
   --decor-rec-item: #FF0070;
+  background-image: url(../images/cover-image-dark.png) ;
 }
 
 :root {
