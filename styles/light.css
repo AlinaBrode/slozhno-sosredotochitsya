@@ -13,12 +13,15 @@
   --accent-txt-bold: #000028;
   --accent-heading-footer-clr: #ffc2e6;
   --decor-rec-item: transparent;
+
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
 @media (width <= 1024px) {
+
   .theme_light .header__heading {
     --header-text-shadow: 4px 4px 0px #ff8dcb;
   }
@@ -27,6 +30,7 @@
     --footer-text-shadow: 2px 2px 0px #ff8dcb;
   }
 }
+
 @media (prefers-color-scheme: light) {
   :root {
     --accent-bg: #ffc2e6;
@@ -38,7 +42,7 @@
     --decor-rec-item: transparent;
     --accent-fs-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     --accent-fs-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    --cover-image: url(../images/cover-image-light.png);
+    --cover-image: url("../images/cover-image-light.png");
     --background-color: #fff1f7;
   }
 }
@@ -64,10 +68,12 @@
     --footer-text-shadow: 2px 2px 0px #ff0070;
   }
 }
+
 .accented-link {
   text-decoration: none;
   text-shadow: 2px 2px 0 var(--accent-bg);
 }
+
 .accented-link:hover {
   border-block-end: 1px solid var(--accent-bg);
 }
