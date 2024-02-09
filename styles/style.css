@@ -18,7 +18,7 @@
   font-weight: 700;
   line-height: 95.7px;
   text-decoration: none;
-  text-shadow: 4px 4px 0 var(--accent-content-txt);
+  text-shadow: 4px 4px 0 var(--accent-bg);
 }
 
 .header {
@@ -261,6 +261,7 @@ footer.footer.decorated-zone::after {
   margin-top: 5px;
 }
 
+
 @media (width >= 768px) {
 
   main {
@@ -272,7 +273,6 @@ footer.footer.decorated-zone::after {
   }
 
   .how__conc {
-    line-height: 23.4px;
     margin-block-start: 60px;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -424,7 +424,7 @@ footer.footer.decorated-zone::after {
 }
 
 @media (width >= 1024px) {
-  
+
   .accented-shadow-text {
     font-size: var(--accent-fs-desktop);
   }
