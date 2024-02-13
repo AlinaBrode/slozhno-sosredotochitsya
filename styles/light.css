@@ -6,12 +6,13 @@
 
 .page.theme_light {
   --cover-image: url(../images/cover-image-light.png);
-  --accent-content-txt: #000028;
+  --accent-content-txt:#353430;
   --accent-bg: #ff8dcb;
-  --accent-txt: #000028;
-  --accent-txt-bold: #000028;
+  --accent-txt:#353430;
+  --accent-txt-bold: #353430;
   --accent-heading-footer-clr: #ffc2e6;
   --decor-rec-item: transparent;
+  
 
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -23,10 +24,10 @@
 @media (prefers-color-scheme: light) {
 
   :root {
-    --accent-content-txt: #000028;
+    --accent-content-txt: #353430;
     --accent-bg: #ff8dcb;
-    --accent-txt: #000028;
-    --accent-txt-bold: #000028;
+    --accent-txt: #353430;
+    --accent-txt-bold: #353430;
     --accent-heading-footer-clr: #ffc2e6;
     --decor-rec-item: transparent;
     --accent-fs-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
