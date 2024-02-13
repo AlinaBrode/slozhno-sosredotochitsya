@@ -15,15 +15,4 @@
   --background-color: #000028;
 }
 
-:root {
-  --accent-content-txt: #ff0070;
-  --accent-bg: #ff0070;
-  --accent-txt: #f1b2ce;
-  --accent-txt-bold: #000028;
-  --accent-heading-footer-clr: #db00ff;
-  --accent-fs-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --accent-fs-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  --cover-image: url(../images/cover-image-dark.png);
-  --decor-rec-item: #ff0070;
-  --background-color: #000028;
-}
+
