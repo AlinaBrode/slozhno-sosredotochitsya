@@ -113,7 +113,8 @@
   border: none;
   color: var(--accent-content-txt);
   background-color: transparent;
-  padding: 2px 13px;
+  padding: 2px 13px 4px;
+  border-bottom: 1px solid transparent;
   line-height: 100%;
   cursor: pointer;
 }
@@ -498,13 +499,13 @@ footer.footer.decorated-zone::after {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 23px;
+    margin-top: 20px;
   }
 
   .header__theme-menu-list {
     flex-direction: row;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
   }
 
   .header__heading {
